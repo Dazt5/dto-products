@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 /**
- * SaveProductRq.
+ * ProductDto.
  *
  * @author David Alvarez.
  * @version 1.0.0, 02-11-2022
