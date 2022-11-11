@@ -2,7 +2,7 @@ package com.dazt.ms.products.dto;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.util.Date;
+import java.time.LocalDateTime;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
@@ -29,7 +29,7 @@ public class ProductDto {
     /** price. */
     private BigDecimal price;
     /** updateTime. */
-    private Date updateTime;
+    private LocalDateTime updateTime;
     /** createTime. */
-    private Date createTime;
+    private LocalDateTime createTime;
 }
