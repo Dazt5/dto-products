@@ -32,4 +32,5 @@ public class ProductDto {
     private LocalDateTime updateTime;
     /** createTime. */
     private LocalDateTime createTime;
+
 }
